@@ -1,0 +1,16 @@
+python main.py \
+--data_dir Your_Train_Data_Path \
+--data_list "data_train.list"  \
+--save ours \
+--epochs 100 \
+--batch_size 24 \
+--lr 0.0001 \
+--decay 10,20,30,40,50 \
+--gamma 1.0,0.5,0.25,0.125,0.0625 \
+--max_depth 10.0 \
+--cut_mask \
+--rgb_noise 0.05 \
+--noise 0.01 \
+--num_threads 16 \
+--train_step2 \
+--pretrain Your_Trained_Model_Path_Of_Step1
