@@ -27,4 +27,4 @@ To run the testing of the step2:
 ```
 sh test_step2.sh 
 ```
-We provide the pretrained models in pretrained/model_00099.pt and pretrained/model_step2_00100.pt
+We provide the pretrained models in pretrained/model_00099.pt and pretrained/model_step2_00100.pt, so we recommend you to run test_step2.sh directly to get the final outputs.
