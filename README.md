@@ -8,7 +8,7 @@ sh train.sh
 ```
 
 ## Training Step2
-To run the training step1:
+To run the training step2:
 
 ```
 sh train_step2.sh 
